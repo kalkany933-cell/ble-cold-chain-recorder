@@ -149,3 +149,9 @@ Elle kontrol edilmesi gereken 5 madde
 - [ ] Alıcı tarafıyla BLE reklam paketinin alan sırasını, bayt sıralamasını ve zaman damgası yöntemini kesinleştir.
 - [ ] Pil seviyesinin nasıl ölçüleceğini ve pilin kullanılabilir kapasitesini belirle.
 - [ ] Referans termometre ve akım ölçüm cihazına laboratuvardan erişilebildiğini doğrula.
+
+
+
+Literatür Özeti
+
+Soğuk zincir sistemleri üzerine yapılan çalışmalar, aşıların uygun sıcaklık koşullarında saklanması ve sıcaklık ihlallerinin tespit edilmesinin önemini ortaya koymaktadır. Sharma ve arkadaşları (2022) soğutma sistemlerini değerlendirirken, Kumar ve arkadaşları (2019) saha koşullarında sıcaklık ihlallerini ve altyapı sorunlarını incelemiştir. Namgyal ve arkadaşları (2016), dijital veri kaydedicilerin manuel izlemeye göre daha fazla sıcaklık ihlali tespit edebildiğini göstermiştir. Rao ve arkadaşları (2020) ağ kapsama alanı sorunlarını, Kumar ve arkadaşları (2021) ise soğuk zincir altyapısındaki yetersizlikleri ele almıştır. Bu çalışmaların ortaya koyduğu ihtiyaçlardan hareketle bu projede, sıcaklığı otomatik ölçen, BLE reklam yayınıyla ileten ve düşük güç tüketimi hedefleyen pilli bir verici etiket geliştirilecek; sensör doğruluğu ve tahmini pil ömrü deneysel olarak değerlendirilecektir.
