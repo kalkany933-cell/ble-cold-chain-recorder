@@ -307,3 +307,11 @@ Bu çalışmada yalnızca sıcaklık ölçümü yapan, ölçüm verisini BLE rek
 - **Zaman damgası:** Harici RTC bulunmadığı için ilk sürümde gerçek tarih-saat yerine mikrodenetleyicinin açılışından itibaren geçen süreyi gösteren sayaç kullanılacaktır. Bu değer gerçek takvim zamanı değildir.
 - **Pil gerilimi:** Pil gerilimi, XIAO nRF52840 kartının uygun ADC girişinden, gerekli gerilim bölücü bağlantısı kullanılarak ölçülecektir. Gerilim bölücünün değerleri pilin maksimum gerilimine ve ADC sınırlarına göre belirlenecektir.
 - **Pil yüzdesi:** Ölçülen pil gerilimi, kullanılan pilin gerilim-deşarj karakteristiğine göre yaklaşık yüzdeye dönüştürülecektir. Bu değer doğrudan kapasite ölçümü değildir ve kalibrasyon gerektirir.
+
+
+
+
+
+### Literatür Özeti
+
+Soğuk zincir sistemlerinde sıcaklık takibi ve saklama koşullarının korunması, aşı güvenilirliği açısından önemli bir araştırma konusudur. Sharma ve arkadaşları (2022) güneş enerjili soğutma sistemlerini değerlendirirken Kumar ve arkadaşları (2019), saha koşullarında sıcaklık ihlallerini ve altyapı sorunlarını incelemiştir. Namgyal ve arkadaşları (2016), dijital veri kaydedicilerin manuel izlemeye kıyasla sıcaklık ihlallerini tespit etmedeki önemini ortaya koyan karşılaştırmalı bir çalışma gerçekleştirmiştir. Rao ve arkadaşları (2020) eVIN programının sıcaklık ihlalleri üzerindeki etkisini değerlendirirken Kumar ve arkadaşları (2021) aşı firesi ve altyapı yetersizliklerine odaklanmıştır. Bu çalışmalardan hareketle geliştirilen projede, TMP117 sıcaklık sensörü ve XIAO nRF52840 BLE kartı kullanılarak düşük güç tüketimli, otomatik sıcaklık ölçümü ve kablosuz veri yayını yapan bir etiket tasarlanması; ±1 °C doğruluk ve en az 30 gün pil ömrü hedeflerinin test edilmesi amaçlanmaktadır.
